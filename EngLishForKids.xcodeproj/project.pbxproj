@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25552B3A1DD2D22200F093C5 /* yellow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25552B371DD2D22200F093C5 /* yellow.jpeg */; };
+		25552B3B1DD2D22200F093C5 /* orange.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25552B381DD2D22200F093C5 /* orange.jpeg */; };
+		25552B3C1DD2D22200F093C5 /* red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25552B391DD2D22200F093C5 /* red.jpg */; };
+		25552B3E1DD2D23900F093C5 /* ColorList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25552B3D1DD2D23900F093C5 /* ColorList.plist */; };
 		25588CA91DD2196100D375DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25588CA81DD2196100D375DB /* AppDelegate.swift */; };
 		25588CAE1DD2196100D375DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25588CAC1DD2196100D375DB /* Main.storyboard */; };
 		25588CB01DD2196100D375DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25588CAF1DD2196100D375DB /* Assets.xcassets */; };
@@ -61,9 +65,16 @@
 		25588D1D1DD21E3000D375DB /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = 25588CED1DD21E3000D375DB /* watermelon.png */; };
 		25588D1E1DD21E3000D375DB /* fruits.png in Resources */ = {isa = PBXBuildFile; fileRef = 25588CEE1DD21E3000D375DB /* fruits.png */; };
 		25588D201DD2218A00D375DB /* color.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25588D1F1DD2218A00D375DB /* color.jpeg */; };
+		25588D221DD2266200D375DB /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25588D211DD2266200D375DB /* DetailVC.swift */; };
+		25588D271DD22ADB00D375DB /* AnimalsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25588D251DD22ADB00D375DB /* AnimalsList.plist */; };
+		25588D281DD22ADB00D375DB /* FruitsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25588D261DD22ADB00D375DB /* FruitsList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25552B371DD2D22200F093C5 /* yellow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellow.jpeg; sourceTree = "<group>"; };
+		25552B381DD2D22200F093C5 /* orange.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpeg; sourceTree = "<group>"; };
+		25552B391DD2D22200F093C5 /* red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red.jpg; sourceTree = "<group>"; };
+		25552B3D1DD2D23900F093C5 /* ColorList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ColorList.plist; sourceTree = "<group>"; };
 		25588CA51DD2196100D375DB /* EngLishForKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngLishForKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25588CA81DD2196100D375DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25588CAD1DD2196100D375DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -120,6 +131,9 @@
 		25588CED1DD21E3000D375DB /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermelon.png; sourceTree = "<group>"; };
 		25588CEE1DD21E3000D375DB /* fruits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruits.png; sourceTree = "<group>"; };
 		25588D1F1DD2218A00D375DB /* color.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = color.jpeg; sourceTree = "<group>"; };
+		25588D211DD2266200D375DB /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		25588D251DD22ADB00D375DB /* AnimalsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AnimalsList.plist; path = EngLishForKids/AnimalsList.plist; sourceTree = "<group>"; };
+		25588D261DD22ADB00D375DB /* FruitsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FruitsList.plist; path = EngLishForKids/FruitsList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,9 +147,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25552B361DD2D20B00F093C5 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				25552B371DD2D22200F093C5 /* yellow.jpeg */,
+				25552B381DD2D22200F093C5 /* orange.jpeg */,
+				25552B391DD2D22200F093C5 /* red.jpg */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
 		25588C9C1DD2196100D375DB = {
 			isa = PBXGroup;
 			children = (
+				25552B3D1DD2D23900F093C5 /* ColorList.plist */,
+				25588D251DD22ADB00D375DB /* AnimalsList.plist */,
+				25588D261DD22ADB00D375DB /* FruitsList.plist */,
 				25588CA71DD2196100D375DB /* EngLishForKids */,
 				25588CA61DD2196100D375DB /* Products */,
 			);
@@ -154,6 +181,7 @@
 			children = (
 				25588CA81DD2196100D375DB /* AppDelegate.swift */,
 				25588CBA1DD21ADD00D375DB /* MasterTableVC.swift */,
+				25588D211DD2266200D375DB /* DetailVC.swift */,
 				25588CAC1DD2196100D375DB /* Main.storyboard */,
 				25588CAF1DD2196100D375DB /* Assets.xcassets */,
 				25588CB11DD2196100D375DB /* LaunchScreen.storyboard */,
@@ -166,6 +194,7 @@
 		25588CBC1DD21E3000D375DB /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				25552B361DD2D20B00F093C5 /* Color */,
 				25588CBD1DD21E3000D375DB /* Animals */,
 				25588CD91DD21E3000D375DB /* animals.jpeg */,
 				25588CDA1DD21E3000D375DB /* Fruits */,
@@ -262,7 +291,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = QUYNV;
 				TargetAttributes = {
 					25588CA41DD2196100D375DB = {
@@ -296,6 +325,7 @@
 			files = (
 				25588D151DD21E3000D375DB /* mango.jpg in Resources */,
 				25588D171DD21E3000D375DB /* papaya.jpg in Resources */,
+				25552B3E1DD2D23900F093C5 /* ColorList.plist in Resources */,
 				25588D0A1DD21E3000D375DB /* animals.jpeg in Resources */,
 				25588D181DD21E3000D375DB /* passion fruit.jpg in Resources */,
 				25588D011DD21E3000D375DB /* mosquito.jpg in Resources */,
@@ -305,6 +335,9 @@
 				25588CF91DD21E3000D375DB /* dog.png in Resources */,
 				25588D001DD21E3000D375DB /* lion.jpg in Resources */,
 				25588CB31DD2196100D375DB /* LaunchScreen.storyboard in Resources */,
+				25552B3B1DD2D22200F093C5 /* orange.jpeg in Resources */,
+				25552B3C1DD2D22200F093C5 /* red.jpg in Resources */,
+				25588D281DD22ADB00D375DB /* FruitsList.plist in Resources */,
 				25588CFC1DD21E3000D375DB /* fly.jpg in Resources */,
 				25588CF61DD21E3000D375DB /* cat.jpg in Resources */,
 				25588D201DD2218A00D375DB /* color.jpeg in Resources */,
@@ -344,7 +377,9 @@
 				25588CFD1DD21E3000D375DB /* fox.png in Resources */,
 				25588CF11DD21E3000D375DB /* bear.png in Resources */,
 				25588D041DD21E3000D375DB /* snail.png in Resources */,
+				25588D271DD22ADB00D375DB /* AnimalsList.plist in Resources */,
 				25588CF71DD21E3000D375DB /* crab.png in Resources */,
+				25552B3A1DD2D22200F093C5 /* yellow.jpeg in Resources */,
 				25588D191DD21E3000D375DB /* peach.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +393,7 @@
 			files = (
 				25588CA91DD2196100D375DB /* AppDelegate.swift in Sources */,
 				25588CBB1DD21ADD00D375DB /* MasterTableVC.swift in Sources */,
+				25588D221DD2266200D375DB /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +437,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -451,6 +488,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -519,6 +557,7 @@
 				25588CB91DD2196100D375DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

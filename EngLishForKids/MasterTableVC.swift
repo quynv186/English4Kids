@@ -10,7 +10,7 @@ import UIKit
 
 class MasterTableVC: UITableViewController {
     
-    var dictList = ["Fruits" : "fruits.png", "Animals" : "animals.jpeg", "Colors" : "color.jpeg"]
+    var dictList = ["Fruits" : "fruits.png", "Animals" : "animals.jpeg", "Color" : "color.jpeg"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +39,18 @@ class MasterTableVC: UITableViewController {
         cell.imageView?.image = UIImage(named: dictList["\(arrayKey[indexPath.row])"]!)
         
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "ShowDetail") {
+            let detailVC = segue.destination as! DetailVC
+            
+            let selectedRowIndex : NSIndexPath = self.tableView.indexPathForSelectedRow! as NSIndexPath
+            let selectedCell : UITableViewCell = self.tableView.cellForRow(at: selectedRowIndex as IndexPath)!
+            
+            detailVC.stringTitle = selectedCell.textLabel?.text
+            
+        }
     }
 
     
